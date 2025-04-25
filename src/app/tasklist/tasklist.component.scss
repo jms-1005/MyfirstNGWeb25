@@ -1,0 +1,17 @@
+ul.tasks{
+  list-style-type: none;
+  li.task{
+    margin: 10px 0;
+    border-bottom: 1px solid #f3f3f3;
+    cursor: pointer;
+    label{
+      cursor: pointer;
+      flex-grow: 1;
+    }
+  }
+  .complete{
+    text-decoration: line-through;
+    color: #7b7a7a;
+    font-style: italic;
+  }
+}

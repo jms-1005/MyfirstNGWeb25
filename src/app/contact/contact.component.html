@@ -1,0 +1,26 @@
+
+<h1>Welcome, {{ user }}</h1>
+
+Name: <input type="text" [(ngModel)]="name">
+<br><br>
+Email: <input [type]="type"
+              [value]="email"
+              [title]="myTitle"
+              [attr.userstatus]="status"
+              [class]="emailStyle"
+              [style.color]="fontColor"
+              [style.padding]="emailPadding"
+              [(ngModel)]="email"
+        >
+<br><br>
+
+Message: <br>
+<textarea cols="30" rows="10" [(ngModel)]="message"></textarea>
+<br><br>
+
+<button (click)="submit()">Submit</button>
+
+<br>
+<contactinfo></contactinfo>
+<br>
+<socialmedia></socialmedia>
