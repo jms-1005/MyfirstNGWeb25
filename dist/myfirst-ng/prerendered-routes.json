@@ -1,0 +1,14 @@
+{
+  "routes": {
+    "/": {},
+    "/about": {},
+    "/about-us": {},
+    "/contact": {},
+    "/email": {},
+    "/home": {},
+    "/program": {},
+    "/students": {},
+    "/tasklist": {},
+    "/videos": {}
+  }
+}
